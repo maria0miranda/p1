@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    color: #322312;
+}
+
+body {
+    background-color: #eae6e4;
+}
+
+header {
+    position: fixed;
+}
+
+.sticky {
+    width: 100%;
+    top: 0;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons {
+    width: auto;
+    height: auto;
+    padding: 200px 0;
+}
+
+a {
+    font-family: scrivano, serif;
+    font-size: 40pt;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #322312
+}
