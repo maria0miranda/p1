@@ -19,16 +19,44 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
-.icons {
-    width: auto;
+
+.harmonybegin {
+    padding-top: 100px;
+     width: auto;
     height: auto;
-    padding: 200px 0;
 }
-a {
-    font-family: scrivano, serif;
-    font-size: 40pt;
+.harmony {
+    margin-top: 500px;
+     width: auto;
+    height: auto;
+}
+
+p {
+     font-family: scrivano, serif;
+    font-size: 25pt;
     font-weight: 700;
-    font-style: normal;
+    font-style: normal;    
+}
+.img {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.onetext {
+text-align: center;}
+
+.twotext {
     text-align: center;
-    color: #322312
+}
+
+.threetext {
+    text-align: center;
+}
+
+.fourtext {
+    text-align: center;
+}
+.continue {
+    text-align: center;
 }

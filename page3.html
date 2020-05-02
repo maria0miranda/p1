@@ -15,16 +15,21 @@
 
 <body>
     <header>
-        <img src="images/absolute-01.png" class="sticky">
+        <img src="images/sticky-01.png" class="sticky">
     </header>
     <main class="icons">
-        <div class="uh" data-top-top="opacity: 0.2;" data-center="opacity: 1;" data-top-bottom="opacity: 0;">
+        <img src="images/logo.png" class="logo">
+        <div class="save">
+        <p class="textone">Aang can save the world.</p>
             <img src="images/page3img.png" class="no">
+        </div>
+            <p class="texttwo">But I believe</p>
+    </main>
 
-    <!-- link for jquery -->
+    <!-- link for jquery 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- link for your java script file var s = skrollr.init(); -->
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script>
 
     <script src="js/skrollr.min.js" type="text/javascript"></script>
     <script>
@@ -34,7 +39,25 @@
             });
         }
 
-    </script>
+    </script> -->
+             <script>
+                //when the window loads, run myFunction
+                window.onload = function() {
+                    myFunction()
+                };
+
+                //when the mountain div is clicked, run myFunction
+                document.getElementById("icons").onclick = function() {
+                    myFunction()
+                };
+
+
+
+                //create a function to scroll to bottom of window
+                function myFunction() {
+                    window.scrollTo(0, 2500);
+                }
+            </script>
 </body>
 
 </html>
